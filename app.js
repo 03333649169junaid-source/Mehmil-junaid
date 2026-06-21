@@ -1,18 +1,16 @@
-// 1. Age alert
-let age = 15;
-alert("I am " + age + " years old");
+let studentName = "Mehmil Junaid";
+let age = 18;              // apni age likh do
+let _totalMarks = 450;     // apne marks likh do
+let $fee = 5000;
+let user1 = "Mehmil Junaid";
 
-// 2. Visit counter
-let visits = localStorage.getItem("visits");
-if (visits === null) {
-  visits = 1;
-} else {
-  visits = Number(visits) + 1;
-}
-localStorage.setItem("visits", visits);
-alert("You have visited this site " + visits + " times");
+// 2. Alert se check karo
+alert("Student Name: " + studentName);
 
-// 3. Birth year
-let birthYear = 2008; // apna saal likh do
-document.write("My birth year is " + birthYear);
-document.write("<br>Data type of my declared variable is " + typeof birthYear);
+// 3. Page pe print karo
+document.write("<h2>Student Details - Mehmil Junaid</h2>");
+document.write("Name: " + studentName + "<br>");
+document.write("Age: " + age + "<br>");
+document.write("Total Marks: " + _totalMarks + "<br>");
+document.write("Fee: " + $fee + "<br>");
+document.write("User ID: " + user1);
