@@ -4,10 +4,10 @@ let _totalMarks = 450;
 let $fee = 5000;
 let user1 = "Mehmil Junaid";
 
-// 2. Alert se check karo
+
 alert("Student Name: " + studentName);
 
-// 3. Page pe print karo
+
 document.write("<h2>Student Details - Mehmil Junaid</h2>");
 document.write("Name: " + studentName + "<br>");
 document.write("Age: " + age + "<br>");
