@@ -1,6 +1,6 @@
 let studentName = "Mehmil Junaid";
-let age = 18;              // apni age likh do
-let _totalMarks = 450;     // apne marks likh do
+let age = 18;              
+let _totalMarks = 450;     
 let $fee = 5000;
 let user1 = "Mehmil Junaid";
 
